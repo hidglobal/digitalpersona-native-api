@@ -2,36 +2,56 @@
 layout: default  
 title: Windows Sample Application  
 nav_exclude: true  
----  
-###### [Native API](..\index.html) / Installation  
-## Windows API Sample Application
+---
+###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ Native API / Overview&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
 
-There are two sets of sample code. One for C++ and one for .NET.  
+![](docs/assets/HID-logo-DNA.png)    
 
-The sample application source code and the Visual Studio <mark style="color:Red;">2008</mark> project files) for sample application are provided in the following repositories.
+## Overview
 
-- [digitalpersona-sample-cpp](https://github.com/hidglobal/digitalpersona-sample-cpp)  
-- [digitalpersona-sample-dotnet](https://github.com/hidglobal/digitalpersona-sample-dotnet)
+The DigitalPersona Native API (previously DP AUTH API) is a subset of the DigitalPersona Access Management API that provides native authentication and identification on the Windows Platform. User enrollment must be handled separately through a DigitalPersona client such as the DigitalPersona Workstation or Kiosk, Attended Enrollment or Web Enrollment.  
 
-The sample applications display a set of buttons that demonstrate a variety of tasks that you might perform with the DigitalPersona API, such as Authentication, Identification, Working with Secrets and Custom Authentication Policies.  
+This API is automatically installed as part of these DigitalPersona clients.
 
-When you run the sample application, the main screen looks like one of the images below.
-The source code header file, src/<mark style="color:Red;">UsingDigitalPersonaSDK.h</mark>, includes detailed comments describing what each button does.
+* DigitalPersona AD Workstation or LDS Workstation  
+* DigitalPersona AD Kiosk or LDS Kiosk  
 
-![](docs/assets/Sample1.jpg)  
-<p style="text-align: center;font-style:italic;">C++ Sample UI</p>
+Sample applications and code ilustrating vaarious functions available through the API are included for C++ and .NET.  
 
+For detailed instructions on installing and configuring the DigitalPersona environment, see the [DigitalPersona Administrator and Client Guides](https://www.crossmatch.com/company/support/documentation/).
 
-![](docs/assets/DOT_NETSampleUI.JPG)
-<p style="text-align: center;font-style:italic;">.NET Sample UI</p>  
+When you install a DigitalPersona Workstation or Kiosk client, the DigitalPersona AUTH API runtime is installed as well. As shown in the diagram below, your application must be installed on workstations that are also running one of the DigitalPersona clients.
 
-Note that to run the sample application you must have a DigitalPersona client installed.
+![](docs/assets/NATIVE-API-91e58d68.png)
 
-For example, to authenticate a user, click on the *Authenticate the currently logged on user* button. A standard DigitalPersona dialog box will appear, similar to the one shown below.
+The API can be used for the following:
 
-![](docs/assets/Verify1.jpg)
+* Authenticating users with the authentication policy and user interface used by DigitalPersona Workstation/Kiosk and optionally reading a user secret.
 
-The actual dialog box will vary depending on your environment and the DigitalPersona client that you have installed.
-You can authenticate with any method that you have set up. After you authenticate, the result of the operation will appear in the main screen of the sample program as shown below, in this case the message Authentication Succeeded as shown below.
+  The DPAlAuthenticate function displays the multi-factor authentication dialog and matches the supplied credentials against the user's enrolled credentials. The customizable dialog box accepts the credentials required by the authentication policy set by the DigitalPersona administrator. On successful authentication, DPAlAuthenticate can optionally return user secrets to the application.
 
-![](docs/assets/Verify2.jpg)
+* Identifying users by searching in the DigitalPersona database to find the user and authenticate them.
+
+* The DPAlIdentAuthenticate function displays the multi-factor identification dialog and identifies the user based on the credentials supplied.
+
+  The customizable dialog box allows the user to provide the credentials required by the current authentication policy. If the identification succeeds, DPAlIdentAuthenticate can optionally return the user name and secret to the application.
+
+* Retrieving and saving user secrets. Secrets are cryptographically protected and are released to an application only after successful authentication of the user. Secrets are stored in the DigitalPersona database and roam with the rest of the user data.
+
+* Implementing custom authentication policies which extend the DigitalPersona administrator’s policies or create new policies.
+
+The DigitalPersona AUTH API observes all of the settings in the DigitalPersona software regarding its communications with the server, supported credentials, policies, etc.
+
+For advanced users, your application can require additional credentials (i.e., you can create a custom authentication policy), but if secret release is required, your application’s must meet the requirements of the policy set by the DigitalPersona administrator.
+
+## Target Audience  
+
+This API is for developers who have a working knowledge of the C++ programming language. In addition, readers should have an understanding of the DigitalPersona product and its authentication terminology and concepts.
+
+## Related Topics  
+
+[Installation](installation.md)  
+[Typical Workflow](typical-workflow.md)  
+[Native API functions](functions.md)  
+[Sample Applications](sample-applications)  
+[Custom Authentication Policies](custom-auth-policies)
