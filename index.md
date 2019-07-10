@@ -50,7 +50,7 @@ This API is for developers who have a working knowledge of the C++ programming l
 
 ## Related Topics  
 
-[Installation](installation.md)
+[Installation](installation.md)  
 [Typical Workflow](typical-workflow.md)  
 [Native API functions](functions.md)  
 [Sample Applications](sample-applications)  
