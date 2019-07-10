@@ -5,7 +5,7 @@ nav_order: 1
 ---
 ###### [DigitalPersona Access Management API ](https://lenhodgeman.github.io/digitalpersona-access-management-api/)/ Native API / Overview&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/LenHodgeman/digitalpersona-native-api)  
 
-![](docs/assets/HID-logo-DNA.png)    
+![](docs/assets/HID-DPAM-native-api.png)    
 
 ## Overview
 

@@ -3,7 +3,10 @@ layout: default
 title: Functions
 nav_order: 4
 ---
-###### [Native API](..\index.html) / Installation   
+###### [Native API](..\index.html) / Functions   
+
+![](docs/assets/HID-DPAM-native-api.png)
+
 ## Functions
 
 This section lists the Pro Authentication API functions. For a detailed description of each function’s parameters, consult the header file DPAlAuthSdkApi.h.

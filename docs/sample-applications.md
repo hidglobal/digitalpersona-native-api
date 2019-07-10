@@ -4,6 +4,9 @@ title: Windows Sample Applications
 nav_order: 4  
 ---  
 ###### [Native API](..\index.html) / Windows Sample Applications
+
+![](docs/assets/HID-DPAM-native-api.png)
+
 ## Windows API Sample Application
 There are two sets of sample code. One for C++ and one for .NET.  
 

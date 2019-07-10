@@ -3,7 +3,10 @@ title: Typical workflow
 nav_order: 3
 has_toc: false
 ---
-###### [Native API](..\index.html) / Installation   
+###### [Native API](..\index.html) / Typical workflow  
+
+![](docs/assets/HID-DPAM-native-api.png)
+   
 ## Typical Workflow
 
 This chapter describes the standard workflow for using the Altus AUTH SDK API and lists the functions provided.  

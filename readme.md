@@ -5,7 +5,7 @@ nav_exclude: true
 ---
 ###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ Native API / Overview&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
 
-![](docs/assets/HID-logo-DNA.png)    
+![](docs/assets/HID-DPAM-native-api.png)    
 
 ## Overview
 

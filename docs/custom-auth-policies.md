@@ -3,7 +3,10 @@ layout: default
 title: Custom Authentication Policies
 nav_order: 6  
 ---
-###### [Native API](..\index.html) / Installation   
+###### [Native API](..\index.html) / Custom Authentication Policies   
+
+![](docs/assets/HID-DPAM-native-api.png)
+
 ## Custom Authentication Policies
 
 This section describes how to define a new or extended authentication policy and how to store it.  

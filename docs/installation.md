@@ -4,6 +4,9 @@ nav_order: 2
 has_toc: false
 ---
 ###### [Native API](..\index.html) / Installation  
+
+![](docs/assets/HID-DPAM-native-api.png)  
+
 ## Installation  
 
 The DigitalPersona AUTH SDK is automatically installed as part of the following DigitalPersona clients:
