@@ -6,11 +6,17 @@ nav_exclude: true
 ###### [Native API](..\index.html) / Installation  
 ## Windows API Sample Application
 
-The sample application source code is provided in the folder Windows API/C++ and .Net AUTH API (including the Visual Studio 2008 project) from the DigitalPersona API package.
 There are two sets of sample code. One for C++ and one for .NET.  
 
-The sample application displays a set of buttons that demonstrate a variety of tasks that you might perform with the DigitalPersona API, such as Authentication, Identification, Working with Secrets and Custom Authentication Policies. When you run the sample application, the main screen looks like one of the images below.
-The source code header file, DPAltusAuthSdkApi.h, includes detailed comments describing what each button does.
+The sample application source code and the Visual Studio <mark style="color:Red;">2008</mark> project files) for sample application are provided in the following repositories.
+
+- [digitalpersona-sample-cpp](https://github.com/hidglobal/digitalpersona-sample-cpp)  
+- [digitalpersona-sample-dotnet](https://github.com/hidglobal/digitalpersona-sample-dotnet)
+
+The sample applications display a set of buttons that demonstrate a variety of tasks that you might perform with the DigitalPersona API, such as Authentication, Identification, Working with Secrets and Custom Authentication Policies.  
+
+When you run the sample application, the main screen looks like one of the images below.
+The source code header file, src/<mark style="color:Red;">UsingDigitalPersonaSDK.h</mark>, includes detailed comments describing what each button does.
 
 ![](docs/assets/Sample1.jpg)  
 <p style="text-align: center;font-style:italic;">C++ Sample UI</p>

@@ -1,9 +1,9 @@
 ---  
 layout: default  
-title: Windows Sample Application  
+title: Windows Sample Applications  
 nav_order: 4  
 ---  
-###### [Native API](..\index.html) / Installation  
+###### [Native API](..\index.html) / Windows Sample Applications
 ## Windows API Sample Application
 
 The sample application source code is provided in the folder Windows API/C++ and .Net AUTH API (including the Visual Studio 2008 project) from the DigitalPersona API package.
