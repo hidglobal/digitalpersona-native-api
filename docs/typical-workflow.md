@@ -3,10 +3,11 @@ title: Typical workflow
 nav_order: 3
 has_toc: false
 ---
-###### [Native API](..\index.html) / Typical workflow  
+
+###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Typical workflow&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)
 
 ![](docs/assets/HID-DPAM-native-api.png)
-   
+
 ## Typical Workflow
 
 This chapter describes the standard workflow for using the Altus AUTH SDK API and lists the functions provided.  

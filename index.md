@@ -3,7 +3,7 @@ layout: default
 title: Overview
 nav_order: 1
 ---
-###### [DigitalPersona Access Management API ](https://lenhodgeman.github.io/digitalpersona-access-management-api/)/ Native API / Overview&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/LenHodgeman/digitalpersona-native-api)  
+###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ Native API / Overview&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
 
 ![](docs/assets/HID-DPAM-native-api.png)    
 
@@ -16,7 +16,7 @@ This API is automatically installed as part of these DigitalPersona clients.
 * DigitalPersona AD Workstation or LDS Workstation  
 * DigitalPersona AD Kiosk or LDS Kiosk  
 
-Sample applications and code ilustrating vaarious functions available through the API are included for C++ and .NET.  
+Sample applications and code illustrating various functions available through the API are included for C++ and .NET.  
 
 For detailed instructions on installing and configuring the DigitalPersona environment, see the [DigitalPersona Administrator and Client Guides](https://www.crossmatch.com/company/support/documentation/).
 

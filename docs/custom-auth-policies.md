@@ -3,7 +3,8 @@ layout: default
 title: Custom Authentication Policies
 nav_order: 6  
 ---
-###### [Native API](..\index.html) / Custom Authentication Policies   
+
+###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Custom Authentication Policies&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
 
 ![](docs/assets/HID-DPAM-native-api.png)
 

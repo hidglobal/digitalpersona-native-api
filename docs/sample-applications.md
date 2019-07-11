@@ -3,7 +3,8 @@ layout: default
 title: Windows Sample Applications  
 nav_order: 4  
 ---  
-###### [Native API](..\index.html) / Windows Sample Applications
+
+###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Windows Sample Applications&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
 
 ![](docs/assets/HID-DPAM-native-api.png)
 

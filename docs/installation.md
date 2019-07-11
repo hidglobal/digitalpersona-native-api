@@ -3,7 +3,9 @@ title: Installation
 nav_order: 2
 has_toc: false
 ---
-###### [Native API](..\index.html) / Installation  
+
+
+###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Installation&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
 
 ![](docs/assets/HID-DPAM-native-api.png)  
 
