@@ -1,14 +1,14 @@
 ---
-title: Windows Sample Applications
+title: Sample Applications
 nav_order: 4
 has_toc: false
 ---
 
-###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Windows Sample Applications&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
+###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Sample Applications&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
 
 ![](assets/HID-DPAM-native-api.png)
 
-## Windows API Sample Applications
+## Native API Sample Applications
 There are two sets of sample code. One for C++ and one for .NET.  
 
 The sample application source code and the Visual Studio <mark style="color:Red;">2008</mark> project files) for sample application are provided in the following repositories.
