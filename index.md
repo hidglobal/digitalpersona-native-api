@@ -50,8 +50,8 @@ This API is for developers who have a working knowledge of the C++ programming l
 
 ## Related Topics  
 
-[Installation](installation.md)  
-[Typical Workflow](typical-workflow.md)  
-[Native API functions](functions.md)  
-[Sample Applications](sample-applications)  
-[Custom Authentication Policies](custom-auth-policies)
+[Installation](docs/installation.html)  
+[Typical Workflow](docs/typical-workflow.md)  
+[Native API functions](docs/functions.md)  
+[Sample Applications](docs/sample-applications.md)  
+[Custom Authentication Policies](docs/custom-auth-policies.md)
