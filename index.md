@@ -3,7 +3,7 @@ layout: default
 title: Overview
 nav_order: 1
 ---
-###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ Native API / Overview&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
+###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ Native API / Overview&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
 
 ![](docs/assets/HID-DPAM-native-api.png)    
 
@@ -20,7 +20,7 @@ Sample applications and code illustrating various functions available through th
 
 For detailed instructions on installing and configuring the DigitalPersona environment, see the [DigitalPersona Administrator and Client Guides](https://www.crossmatch.com/company/support/documentation/).
 
-When you install a DigitalPersona Workstation or Kiosk client, the DigitalPersona AUTH API runtime is installed as well. As shown in the diagram below, your application must be installed on workstations that are also running one of the DigitalPersona clients.
+When you install a DigitalPersona Workstation or Kiosk client, the DigitalPersona Nativev API runtime is installed as well. As shown in the diagram below, your application must be installed on workstations that are also running one of the DigitalPersona clients.
 
 ![](docs/assets/NATIVE-API-91e58d68.png)
 
@@ -40,7 +40,7 @@ The API can be used for the following:
 
 * Implementing custom authentication policies which extend the DigitalPersona administrator’s policies or create new policies.
 
-The DigitalPersona AUTH API observes all of the settings in the DigitalPersona software regarding its communications with the server, supported credentials, policies, etc.
+The DigitalPersona Native API observes all of the settings in the DigitalPersona software regarding its communications with the server, supported credentials, policies, etc.
 
 For advanced users, your application can require additional credentials (i.e., you can create a custom authentication policy), but if secret release is required, your application’s must meet the requirements of the policy set by the DigitalPersona administrator.
 

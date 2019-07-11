@@ -4,7 +4,7 @@ title: Custom Authentication Policies
 nav_order: 6  
 ---
 
-###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Custom Authentication Policies&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
+###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Custom Authentication Policies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
 
 ![](docs/assets/HID-DPAM-native-api.png)
 
@@ -14,7 +14,7 @@ This section describes how to define a new or extended authentication policy and
 
 This material is for advanced developers only.
 
-Technical support queries regarding custom authentication policies should be sent to ProSDKCAPsupport@digitalpersona.com rather than the usual DigitalPersona technical support.  
+Technical support queries regarding custom authentication policies should be sent to <mark style="color:Red;">ProSDKCAPsupport@digitalpersona.com</mark> rather than the usual DigitalPersona technical support.  
 
 If you need DigitalPersona to authenticate users and return user secrets, then you will need to satisfy the authentication policy defined by the DigitalPersona administrator.   
 

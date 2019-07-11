@@ -5,22 +5,22 @@ has_toc: false
 ---
 
 
-###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Installation&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
+###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Installation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
 
 ![](docs/assets/HID-DPAM-native-api.png)  
 
 ## Installation  
 
-The DigitalPersona AUTH SDK is automatically installed as part of the following DigitalPersona clients:
+The DigitalPersona Native API is automatically installed as part of the following DigitalPersona clients:
 - DigitalPersona AD and LDS Workstation  
 - DigitalPersona AD and LDS Kiosk
 - DigitalPersona Lite Client  
 
 ### Preparing the DigitalPersona Server
 
-Since the DigitalPersona AUTH SDK is part of a client-server solution, use of the SDK requires installation of a DigitalPersona AD or LDS Server and client, plus additional steps on the server to prepare it for use with the SDK.  
+Since the DigitalPersona Native API is part of a client-server solution, use of the SDK requires installation of a DigitalPersona AD or LDS Server and client, plus additional steps on the server to prepare it for use with the SDK.  
 
-The necessary steps for installation and setup of the DigitalPersona AUTH SDK are summarized below.  
+The necessary steps for installation and setup of the DigitalPersona Native API are summarized below.  
 
 - Install a DigitalPersona AD or LDS Server      
 - (Optionally) Install the DigitalPersona Web Management Components  
@@ -37,7 +37,7 @@ Note that installation of the DigitalPersona Web Management Component is optiona
 These components are primarily used when there is a firewall between the computer using the SDK and the DigitalPersona Server. In this scenario, you can install only the DigitalPersona Internet Proxy by selecting *Advanced Configuration* in the DigitalPersona Web Management Components configuration wizard and deselecting all other components.  
 
 To install the DigitalPersona Web Management Components
-1. Locate the Web Management Components folder within the DigitalPersona AUTH SDK package.  
+1. Locate the Web Management Components folder within the DigitalPersona Native API package.  
 
 2. Launch the Web Management Components installer by clicking the Setup.exe file.  
 
@@ -52,7 +52,7 @@ installation.
 
 ### Install a DigitalPersona client  
 
-To run the DigitalPersona AUTH sample code or to run and test your application, you should have a DigitalPersona client installed on your development machine.  
+To run the DigitalPersona Native API sample code or to run and test your application, you should have a DigitalPersona client installed on your development machine.  
 
 Additionally, if you are developing for the DigitalPersona AD or LDS Kiosk or Lite Client environment, you should test your application with those clients.  
 

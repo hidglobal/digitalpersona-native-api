@@ -4,13 +4,13 @@ nav_order: 3
 has_toc: false
 ---
 
-###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Typical workflow&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)
+###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Typical workflow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)
 
 ![](docs/assets/HID-DPAM-native-api.png)
 
 ## Typical Workflow
 
-This chapter describes the standard workflow for using the Altus AUTH SDK API and lists the functions provided.  
+This chapter describes the standard workflow for using the DigitalPersona Native API and lists the functions provided.  
 
 Two sample applications are provided, one for C++ and one for .NET.  
 
@@ -43,6 +43,7 @@ The API provides:
   The DPAlIdentAuthenticate function displays the multi-factor identification dialog and identifies the user based on the credentials supplied. The customizable dialog box allows the user to provide the credentials required by the current authentication policy.  
 
   Optional: If the identification succeeds, DPAlIdentAuthenticate can return the user name, the type of credential(s) used to authenticate and user secrets.
-Authentication Policies
-The simplest option provided by DigitalPersona AUTH API is to authenticate a user using the session authentication policy defined by the DigitalPersona administrator. In this case, you do not need to know how policies work and you may simply pass NULLs to the API for all parameters that take an authentication policy.
-For more information on authentication policies, see the section [Custom Authentication Policies](custom-auth-policies).  
+#### Authentication Policies
+The simplest option provided by the  DigitalPersona Native API is to authenticate a user using the session authentication policy defined by the DigitalPersona administrator. In this case, you do not need to know how policies work and you may simply pass NULLs to the API for all parameters that take an authentication policy.  
+
+For more information on authentication policies, see the section [Custom Authentication Policies](custom-auth-policies.md).  
