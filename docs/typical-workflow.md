@@ -14,7 +14,7 @@ This chapter describes the standard workflow for using the DigitalPersona Native
 
 Two sample applications are provided, one for C++ and one for .NET.  
 
-The information in this chapter is extracted from DPAltusAuthSdkApi.h.  
+The information in this chapter is extracted from <mark style="color:Red;">DPAltusAuthSdkApi.h</mark>.  
 
 For terminology and concepts, see the DigitalPersona Administrator Guides and the DigitalPersona CLient Guide.  
 
