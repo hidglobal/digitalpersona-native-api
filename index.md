@@ -3,7 +3,7 @@ layout: default
 title: Overview
 nav_order: 1
 ---
-{% include header.html %}
+
 ### DIGITALPERSONA NATIVE API
 
 ### Overview 1
