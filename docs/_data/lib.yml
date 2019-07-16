@@ -1,6 +1,6 @@
-name: DigitalPersona Web Access Core
+name: DIGITALPERSONA NATIVE API
 shortName: DPAM Core
 git: 'https://github.com/hidglobal'
-repo: digitalpersona-core
+repo: digitalpersona-native-api
 package: '@digitalpersona/core'
 api: core
