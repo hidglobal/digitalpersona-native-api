@@ -4,7 +4,7 @@ title: Overview
 nav_order: 1
 nav_exclude: true
 ---
-{% include header.html %}
+
 ### DIGITALPERSONA NATIVE API
 
 ### Overview 2
