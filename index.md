@@ -16,7 +16,7 @@ This API is automatically installed as part of these DigitalPersona clients.
 * DigitalPersona AD Workstation or LDS Workstation  
 * DigitalPersona AD Kiosk or LDS Kiosk  
 
-Sample applications and code illustrating various functions available through the API are included for C++ and .NET.  
+Sample applications and code illustrating various functions available through the API are included for [C++](https://hidglobal.github.io/digitalpersona-sample.cpp/) and [.NET](https://hidglobal.github.io/digitalpersona-sample.net/).  
 
 For detailed instructions on installing and configuring the DigitalPersona environment, see the [DigitalPersona Administrator and Client Guides](https://www.crossmatch.com/company/support/documentation/).
 
