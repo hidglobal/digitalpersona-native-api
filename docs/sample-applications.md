@@ -4,7 +4,7 @@ nav_order: 4
 has_toc: false
 ---
 
-###### [DigitalPersona Access Management API ](https://hidglobal.github.io/digitalpersona-access-management-api/)/ [Native API](..\index.html) / Sample Applications&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[\| View Repo \|](https://github.com/hidglobal/digitalpersona-native-api)  
+{% include header.html %}
 
 ![](assets/HID-DPAM-native-api.png)
 
