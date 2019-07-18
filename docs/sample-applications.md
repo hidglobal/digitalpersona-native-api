@@ -6,8 +6,6 @@ has_toc: false
 
 {% include header.html %}
 
-![](assets/HID-DPAM-native-api.png)
-
 ## Native API Sample Applications
 There are two sets of sample code. One for C++ and one for .NET.  
 
