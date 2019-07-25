@@ -17,9 +17,8 @@ The sample application source code and the Visual Studio <mark style="color:Red;
 
 The sample applications display a set of buttons that demonstrate a variety of tasks that you might perform with the DigitalPersona API, such as Authentication, Identification, Working with Secrets and Custom Authentication Policies.  
 
-When you run the C++ or .NET sample applications, the main screen looks like one of the images below.  
+When you run the C++ or .NET sample applications, the main screen looks like one of the images below. For details on the web sample appication, click [here](https://hidglobal.github.io/digitalpersona-sample-web).  
 
-For details on the web sample appication, click [here](https://github.com/hidglobal/digitalpersona-sample-web).
 The source code header file, [DPAuthSdkApi.h](https://github.com/hidglobal/digitalpersona-sample-cpp/blob/master/Solution%20Items/DPAuthSdkApi.h), includes detailed comments describing what each button does.
 
 ![](assets/Sample1.jpg)  
