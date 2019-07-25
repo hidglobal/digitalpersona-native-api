@@ -17,7 +17,7 @@ The sample application source code and the Visual Studio <mark style="color:Red;
 The sample applications display a set of buttons that demonstrate a variety of tasks that you might perform with the DigitalPersona API, such as Authentication, Identification, Working with Secrets and Custom Authentication Policies.  
 
 When you run the sample application, the main screen looks like one of the images below.
-The source code header file, src/<mark style="color:Red;">UsingDigitalPersonaSDK.h</mark>, includes detailed comments describing what each button does.
+The source code header file, [DPAuthSdkApi.h](https://github.com/hidglobal/digitalpersona-sample-cpp/Solution Items/DPAuthSdkApi.h), includes detailed comments describing what each button does.
 
 ![](assets/Sample1.jpg)  
 <p style="text-align: center;font-style:italic;">C++ Sample UI</p>
