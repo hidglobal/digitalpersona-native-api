@@ -5,6 +5,7 @@ has_toc: false
 ---
 
 {% include header.html %}
+<BR>
 
 # Native API Sample Applications
 There are three sets of Native API sample code. One each for C++, .NET and the web.

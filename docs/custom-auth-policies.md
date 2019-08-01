@@ -6,7 +6,7 @@ nav_order: 6
 
 {% include header.html %}
 
-## Custom Authentication Policies
+# Custom Authentication Policies
 
 This section describes how to define a new or extended authentication policy and how to store it.  
 
@@ -106,7 +106,7 @@ A fairly typical default authentication policy is shown below. This policy allow
 
 The order of credential masks within the Policy array is unimportant. The bits that correspond to each credential type are consistent for all credential masks (i.e., bit 0 always represents that a password is required).  
 
-## Extending an Authentication Policy  
+# Extending an Authentication Policy  
 
 If you want to extend the DigitalPersona administrator’s authentication policy, you can read the current policy by calling DPAlReadAuthPolicy. You can then modify the credentials masks or add new credentials masks to the authentication policy array. You can then pass your authentication policy to calls to DPAlAuthenticate or DPAlIdentAuthenticate and your authentication policy will be used instead of the policy defined by the DigitalPersona administrator.  
 
@@ -127,7 +127,7 @@ If you require that users also use face recognition in addition to either a fing
 In this case, DigitalPersona will release secrets because the policy is stricter than the original.
 However if you update the authentication policy to allow a different kind of credential entirely (for example, by adding a new credential mask that allows smart cards), then DigitalPersona will not release secret data.  
 
-## Creating a New Authentication Policy
+# Creating a New Authentication Policy
 You can also create your own custom policy. To do this, simply create the appropriate credentials masks and pass your authentication policy to DPAlAuthenticate or DPAlIdentAuthenticate.  
 
 DigitalPersona will not release secrets if your policy is less strict than the existing authentication policy set by the DigitalPersona administrator.

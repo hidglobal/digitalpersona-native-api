@@ -5,15 +5,16 @@ has_toc: false
 ---
 
 {% include header.html %}
+<BR>
 
-## Installation  
+# Installation  
 
 The DigitalPersona Native API is automatically installed as part of the following DigitalPersona clients:
 - DigitalPersona AD and LDS Workstation  
 - DigitalPersona AD and LDS Kiosk
 - DigitalPersona Lite Client  
 
-### Preparing the DigitalPersona Server
+## Preparing the DigitalPersona Server
 
 Since the DigitalPersona Native API is part of a client-server solution, use of the SDK requires installation of a DigitalPersona AD or LDS Server and client, plus additional steps on the server to prepare it for use with the SDK.  
 
@@ -23,11 +24,11 @@ The necessary steps for installation and setup of the DigitalPersona Native API 
 - (Optionally) Install the DigitalPersona Web Management Components  
 - Install a DigitalPersona client  
 
-### Install a DigitalPersona AD or LDS Server  
+## Install a DigitalPersona AD or LDS Server  
 
 For instructions on installing and configuring a DigitalPersona AD or LDS Server, see the DigitalPersona AD Administrator Guide or the DigitalPersona LDS Administrator Guide.  
 
-### (Optionally) Install the DigitalPersona Web Management Components  
+## (Optionally) Install the DigitalPersona Web Management Components  
 
 Note that installation of the DigitalPersona Web Management Component is optional.  
 
@@ -47,7 +48,7 @@ installation.
 
   If you do install IIS separately, see the DigitalPersona Administrator Guide for a list of required IIS features.
 
-### Install a DigitalPersona client  
+## Install a DigitalPersona client  
 
 To run the DigitalPersona Native API sample code or to run and test your application, you should have a DigitalPersona client installed on your development machine.  
 

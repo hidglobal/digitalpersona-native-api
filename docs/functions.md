@@ -6,7 +6,7 @@ nav_order: 4
 
 {% include header.html %}
 
-## Functions
+# Functions
 
 This section lists the Pro Authentication API functions. For a detailed description of each function’s parameters, consult the header file DPAlAuthSdkApi.h.
 
