@@ -9,7 +9,7 @@ has_toc: false
 ## Native API Sample Applications
 There are three sets of Native API sample code. One each for C++, .NET and the web.
 
-The sample application source code and the Visual Studio <mark style="color:Red;">2008</mark> project files) for sample application are provided in the following repositories.
+The sample application source code and the Visual Studio 2012 project files for the sample applications are provided in the following repositories.
 
 - [digitalpersona-sample-cpp](https://github.com/hidglobal/digitalpersona-sample-cpp)  
 - [digitalpersona-sample-dotnet](https://github.com/hidglobal/digitalpersona-sample-dotnet)
@@ -17,7 +17,7 @@ The sample application source code and the Visual Studio <mark style="color:Red;
 
 The sample applications display a set of buttons that demonstrate a variety of tasks that you might perform with the DigitalPersona API, such as Authentication, Identification, Working with Secrets and Custom Authentication Policies.  
 
-When you run the C++ or .NET sample applications, the main screen looks like one of the images below. For details on the web sample appication, click [here](https://hidglobal.github.io/digitalpersona-sample-web).  
+When you run the C++ or .NET sample applications, the main screen looks like one of the images below. For details on the web sample application, click [here](https://hidglobal.github.io/digitalpersona-sample-web).  
 
 The source code header file, [DPAuthSdkApi.h](https://github.com/hidglobal/digitalpersona-sample-cpp/blob/master/Solution%20Items/DPAuthSdkApi.h), includes detailed comments describing what each button does.
 
