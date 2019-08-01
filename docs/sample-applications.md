@@ -6,7 +6,7 @@ has_toc: false
 
 {% include header.html %}
 
-## Native API Sample Applications
+# Native API Sample Applications
 There are three sets of Native API sample code. One each for C++, .NET and the web.
 
 The sample application source code and the Visual Studio 2012 project files for the sample applications are provided in the following repositories.
